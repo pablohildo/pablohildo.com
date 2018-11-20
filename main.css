@@ -1,0 +1,119 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.clear{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+body,
+html {
+    height: 100%;
+}
+
+#particles-js canvas {
+    display: block;
+    transform: scale(1);
+    opacity: 1;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    background-color: #003367;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+.title{
+    font-family: 'Arvo', sans-serif;
+    font-size: 6em;
+    margin: 0;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.picture{
+    width: 250px;
+    border-radius: 100%;
+}
+
+.feature{
+    color: #ff9600;
+}
+
+.contact{
+    font-size: 3em;
+}
+
+.contact a{
+    color: #f3f3f3;
+}
+
+
+.center{
+    text-align: center;
+}
+
+section{
+    min-height: 50vh;
+    padding: 2em;
+    color: #f3f3f3;
+    font-size: 18px;
+}
+
+section h2{
+    font-family: 'Arvo', sans-serif;
+    color: #f3f3f3;
+    font-size: 32px;
+}
+
+.about-me{
+    background: rgba(243, 243, 243, 0.2);
+}
+
+a {
+    color: #f3f3f3;
+}
+
+.skills-container{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.skill{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.skills-col{
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
