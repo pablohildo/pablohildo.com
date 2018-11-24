@@ -5,11 +5,6 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-.clear{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
 header{
     color: #f3f3f3;
     display: flex;
@@ -18,6 +13,8 @@ header{
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    position: absolute;
+    top: 0;
 }
 body,
 html {
@@ -32,10 +29,9 @@ html {
 }
 
 #particles-js {
-    background-color: #003367;
+    background: linear-gradient(to bottom, #003367 0%,#5490C4 100%);;
     width: 100%;
-    height: 100%;
-    position: fixed;
+    height: 100vh;
     z-index: -10;
     top: 0;
     left: 0
@@ -79,16 +75,13 @@ section{
     padding: 2em;
     color: #f3f3f3;
     font-size: 18px;
+    background-color: #5490C4;
 }
 
 section h2{
     font-family: 'Arvo', sans-serif;
     color: #f3f3f3;
     font-size: 32px;
-}
-
-.about-me{
-    background: rgba(243, 243, 243, 0.2);
 }
 
 a {
@@ -116,4 +109,40 @@ a {
     align-items: center;
     justify-content: center;
     align-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .picture{
+        width: 150px;
+    }
+    .title{
+        font-size: 3em;
+    }
+    .subtitle{
+        font-size: 18px;
+    }
+    .contact{
+        font-size: 2em;
+    }
+    section{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .picture{
+        width: 200px;
+    }
+    .title{
+        font-size: 4em;
+    }
+    .subtitle{
+        font-size: 18px;
+    }
+    .contact{
+        font-size: 2em;
+    }
+    section{
+        font-size: 1em;
+    }
 }
